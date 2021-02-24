@@ -14,14 +14,76 @@ categories: ["Software Requirements"]
 
 <!-- Write content Down Here :) -->
 
-<p> <!-- placeholder text || you can use Markdown or HTML to add some content -->
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rhoncus ipsum velit, interdum accumsan magna lacinia at. Suspendisse accumsan eros eget lacinia convallis. Donec pretium massa quis mattis lobortis. Sed in ipsum nisi. Suspendisse potenti. Donec ornare lorem magna, vel iaculis libero congue non. Sed laoreet lacus quis dictum efficitur. Sed tellus ipsum, interdum vel orci nec, rhoncus cursus justo. Proin sit amet turpis aliquet, ultrices neque eget, ullamcorper eros.
+# Activity Diagram - ENG
 
-  Donec non interdum elit, eget laoreet erat. In faucibus eu nibh quis fermentum. Aliquam nunc massa, commodo pharetra ligula vel, faucibus tempor orci. Proin in neque vulputate, porta lorem at, euismod dolor. Integer quis lorem id est accumsan commodo ac ac neque. Phasellus sed est eget magna tincidunt posuere. Integer interdum rutrum ex, vel cursus tortor consectetur tincidunt. Proin at bibendum neque, a fermentum odio.
+## What is an Activity Diagram?
 
-  Proin non ligula vel libero consequat convallis. Proin laoreet ante a enim finibus lacinia. Nullam diam ante, iaculis accumsan quam ut, gravida pellentesque leo. Cras a justo at ipsum commodo tempus ac sed lectus. Morbi quis laoreet diam. Mauris congue tortor in maximus tempus. Etiam tincidunt, urna ac auctor ultrices, turpis nisl tempor nibh, vel sagittis tortor risus sit amet urna. Etiam et leo accumsan turpis egestas mollis. Curabitur nec ultrices tortor. Maecenas pretium est ac orci posuere consectetur. Nullam sed pharetra augue.
-</p> 
+Activity diagram is an important behavioral diagram in UML diagram
+to describe dynamic aspects of the system. Activity diagram is
+essentially an advanced version of flowchart that models the flow
+from one activity to another activity.
 
+## When to Use Activity Diagrams?
+
+Activity Diagrams describe how activities are coordinated to provide a
+service which can be at different levels of abstraction. Typically, an event
+needs to be achieved by some operations, particularly where the
+operation is intended to achieve a number of different things that require
+coordination, or how the events in a single use case relate to one
+another, in particular, use cases where activities may overlap and require
+coordination. It is also suitable for modeling how a collection of use cases
+coordinate to represent business workflows.
+
+● Identify candidate use cases, through the examination of business workflows
+● Identify pre- and post-conditions (the context) for use cases
+● Model workflows between/within use cases
+● Model complex workflows in operations on objects
+● Model in detail complex activities in a high level activity Diagram
+
+## Difference between an Activity diagram and a Flowchart
+
+Flowcharts were typically invented earlier than activity diagrams. Non
+programmers use Flow charts to model workflows. For example: A
+manufacturer uses a flow chart to explain and illustrate how a particular
+product is manufactured. We can call a flowchart a primitive version of an
+activity diagram. Business processes where decision making is involved is
+expressed using a flow chart.
+
+## Construction
+
+Activity diagrams are constructed from a limited number of shapes,
+connected with arrows. The most important shape types:
+
+● Ellipses represent actions;
+● Diamonds represent decisions;
+● Bars represent the start (split) or end (join) of concurrent activities;
+● A black circle represents the start (initial node) of the workflow;
+● An encircled black circle represents the end (final node).
+● Arrows run from the start towards the end and represent the order
+in which activities happen.
+
+## Structure of an Activity Diagram:
+
+![Activity%20Diagram%20-%20ENG%206aa4b6c2df1043ab800dde8c0093faff/1.png](Activity%20Diagram%20-%20ENG%206aa4b6c2df1043ab800dde8c0093faff/1.png)
+
+## Activity Diagram - Modeling a Word Processor (Example)
+
+The activity diagram example below describes the workflow for a word process to
+create a document through the following steps:
+
+• Open the word processing package.
+• Create a file.
+• Save the file under a unique name within its directory.
+• Type the document.
+• If graphics are necessary, open the graphics package, create the graphics, and paste the graphics into the document.
+• If a spreadsheet is necessary, open the spreadsheet package, create the spreadsheet, and paste   the spreadsheet into the document.
+• Save the file.
+• Print a hard copy of the document.
+• Exit the word processing package.
+
+### Example graph:
+
+![Activity%20Diagram%20-%20ENG%206aa4b6c2df1043ab800dde8c0093faff/2.png](Activity%20Diagram%20-%20ENG%206aa4b6c2df1043ab800dde8c0093faff/2.png)
 
 
 
