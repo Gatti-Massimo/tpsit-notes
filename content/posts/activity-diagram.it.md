@@ -1,6 +1,5 @@
 --- 
 title: "Diagramma di Attività"
-description: "Inserisci un sottotitolo qui" # aggiorna testo !
 date: 2021-02-15T21:43:46+01:00 # aggiorna data !
 
 draft: true # cambia con false quando viene approvata la versone definitiva !
@@ -12,15 +11,12 @@ tags: ["Requisiti Software"]
 categories: ["Requisiti Software"]   
 ---  
 
-<!-- Write content Down Here :) -->
 
-# Activity Diagram - ITA
+---
+L'activity diagram è un una tipologia di diagramma UML utilizzato per descrivere gli aspetti dinamici del sistema. Un Activity Diagram è essenzialmente una versione avanzata del Flowchart che modella il flusso da un'attività a un'altra attività.
 
-## Cos'è un Activity diagram?
-
-L'Activity Diagram è un una tipologia di diagramma UML utilizzato per descrivere gli aspetti dinamici del sistema. Un Activity Diagram è essenzialmente una versione avanzata del Flowchart che modella il flusso da un'attività a un'altra attività.
-
-## Quando utilizzare gli Activity diagram?
+&nbsp
+### Quando utilizzare gli Activity diagram?
 
 I diagrammi delle attività servono per la modellazione di workflow, per descrivere processi con una forte componente di computazione parallela oppure per rappresentare la logica interna di un processo di qualunque livello.
 
@@ -32,7 +28,8 @@ I diagrammi delle attività servono per la modellazione di workflow, per descriv
 - Modella flussi di lavoro complessi nelle operazioni sugli oggetti
 - Modella in dettaglio attività complesse in un Activity Diagram di alto livello
 
-## Differenza tra un Activity diagram e un Flowchart
+&nbsp
+### Differenza tra un Activity diagram e un Flowchart
 
 I Flow Chart sono stati inventati prima degli activity diagram.
 
@@ -40,7 +37,8 @@ I non programmatori utilizzano i Flow Chart per modellare i workflows, ad esempi
 
 Possiamo chiamare un Flowchart una versione primitiva di un Activity Diagram, i processi aziendali in cui è coinvolto il processo decisionale vengono espressi utilizzando un Flowchart.
 
-## Costruzione
+&nbsp
+### Costruzione
 
 Gli Activity Diagram sono costituiti da una serie di forme collegate con frecce.
 
@@ -53,11 +51,14 @@ I tipi di forma più importanti:
 - Un cerchio nero circondato rappresenta la fine (nodo finale).
 - Le frecce vanno dall'inizio alla fine e rappresentano l'ordine in cui si svolgono le attività.
 
-## Struttura di un Activity diagram
+&nbsp
+### Struttura di un Activity diagram
+&nbsp
 
-![Activity%20Diagram%20-%20ENG%206aa4b6c2df1043ab800dde8c0093faff/1.png](Activity%20Diagram%20-%20ENG%206aa4b6c2df1043ab800dde8c0093faff/1.png)
+![Activity Diagram Structure](/images/ActivityDiagram/1.png)
 
-## Esercizio di esempio:
+&nbsp
+### Esercizio di esempio:
 
 Activity Diagram di un elaboratore di testi.
 
@@ -73,9 +74,11 @@ L'esempio di Activity Diagram riportato di seguito descrive il flusso di lavoro 
 - Stampa una copia cartacea del documento.
 - Esci da Office Suite.
 
-## Grafico d'Esempio:
+&nbsp
+### Grafico d'Esempio:
+&nbsp
 
-![Activity%20Diagram%20-%20ENG%206aa4b6c2df1043ab800dde8c0093faff/2.png](Activity%20Diagram%20-%20ENG%206aa4b6c2df1043ab800dde8c0093faff/2.png)
+![Activity Diagram Graph](/images/ActivityDiagram/2.png) 
 
 
 
