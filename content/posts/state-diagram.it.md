@@ -67,9 +67,8 @@ Una transizione ha :
 ![Arrow](State%20Diagram/Arrow.svg)
 Una linea retta rappresenta il percorso tra stati differenti
 
-```text
-Una **transizione automatica** è una transizione i cui stati di *origine* e di *destinazione* sono gli *stessi*
-``` 
+> Una **transizione automatica** è una transizione i cui stati di *origine* e di *destinazione* sono gli *stessi*
+ 
 &nbsp
 
 &nbsp

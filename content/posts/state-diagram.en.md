@@ -68,9 +68,8 @@ A transition has:
 ![Arrow](State%20Diagram/Arrow.svg)
 A solid arrow represents the path between different states of an object
 
-```text
-A **self-transition** is a transition whose *source* and *target states* are *the same*
-```
+> A **self-transition** is a transition whose *source* and *target states* are *the same*
+
 &nbsp
 
 &nbsp
