@@ -2,7 +2,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <!-- Generato da Microsoft Visio, esportazione SVG State_simple.svg Pagina 1 -->
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
-		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="1.05054in" height="0.63269in"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="1.7in" height="0.9in"
 		viewBox="0 0 75.6389 45.5537" xml:space="preserve" color-interpolation-filters="sRGB" class="st3">
 	<v:documentProperties v:langID="1033" v:viewMarkup="false"/>
 
@@ -23,13 +23,13 @@
 			</v:userDefs>
 			<title>Stato</title>
 			<g id="shape41-2" v:mID="41" v:groupContext="groupContent">
-				<rect x="0" y="0.75" width="74.8889" height="44.8037" rx="8.50394" ry="8.50394" class="st1"/>
+				<rect x="0" y="0.75" width="150" height="44.8037" rx="8.50394" ry="8.50394" class="st1"/>
 			</g>
 			<g id="shape42-4" v:mID="42" v:groupContext="shape" transform="translate(0,-22.4)">
 				<title>Foglio.42</title>
 				<desc>State</desc>
 				<v:userDefs>
-					<v:ud v:nameU="UmlRole" v:prompt="" v:val="VT4(Title)"/>
+					<v:ud v:nameU="UmlRole" v:prompt="" v:val="VT4(Title)"/> 
 				</v:userDefs>
 				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
 				<v:textRect cx="37.4445" cy="34.3519" width="74.89" height="22.4037"/>

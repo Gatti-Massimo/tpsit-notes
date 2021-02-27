@@ -21,6 +21,7 @@ I casi d'uso specificano il comportamento previsto, ma non il metodo esatto per 
 
 Il concetto chiave del diagramma è progettare un sistema dal punto di vista dell'utente finale.
 
+&nbsp
 ![Use Case Diagram - Schema_iniziale](/images/UseCaseDiagram/Schema_iniziale.svg)
 
 &nbsp
@@ -42,15 +43,21 @@ Il concetto chiave del diagramma è progettare un sistema dal punto di vista del
 
 - Attore: è qualcuno che interagisce con il caso d’uso ed è nominato da un sostantivo.
 
+&nbsp
     ![Use Case Diagram - Attore](/images/UseCaseDiagram/Attore.svg)
+&nbsp
 
 - Caso d’uso: è una funzione del sistema, è rappresentato da verbo + sostantivo.
 
+&nbsp
     ![Use Case Diagram - Caso_dUso](/images/UseCaseDiagram/Caso_dUso.svg)
+&nbsp
 
 - Collegamento di associazione: collega un attore a un caso d’uso.
 
+&nbsp
     ![Use Case Diagram - Associazione](/images/UseCaseDiagram/Associazione.svg)
+&nbsp
 
 - Confine di sistema: è potenzialmente l’intero sistema, può costituire un confine di sistema per casi d’uso specifici.
 
@@ -61,12 +68,15 @@ Il concetto chiave del diagramma è progettare un sistema dal punto di vista del
 
 È rappresentata da una freccia con punta triangolare. Il caso d’uso figlio è collegato alla base della freccia, mentre quello padre è collegato alla punta della freccia.
 
+&nbsp
 ![Use Case Diagram - Generalizzazione1](/images/UseCaseDiagram/Generalizzazione1.svg)
+&nbsp
 
 I caso d’uso figli (Ricerca per numero di telefono/autore) ereditano il comportamento ed il significato del caso d’uso del padre (Ricerca).
 
 Il figlio può aggiungere o sovrascrivere il comportamento del padre.
 
+&nbsp
 ![Use Case Diagram - Generalizzazione](/images/UseCaseDiagram/Generalizzazione.svg)
 
 &nbsp
@@ -76,12 +86,15 @@ Quando un caso d’uso viene descritto come utilizzatore di un altro caso d’us
 
 Una relazione d’uso è rappresentata da una linea tratteggiata e una freccia. La punta indica il processo figlio, mentre alla base si trova il padre.
 
+&nbsp
 ![Use Case Diagram - Include_3](/images/UseCaseDiagram/Include_3.svg)
+&nbsp
 
 La relazione "include" aggiunge funzionalità non specificate nel caso d’uso. Il caso incluso fa parte del comportamento di quello che lo include.
 
+&nbsp
 ![Use Case Diagram - Include_1](/images/UseCaseDiagram/Include_1.svg)
-
+&nbsp
 ![Use Case Diagram - Include_2](/images/UseCaseDiagram/Include_2.svg)
 
 &nbsp
@@ -93,14 +106,17 @@ Viene raffigurata da una freccia tratteggiata. Alla punta della freccia troviamo
 
 In questo caso il caso d’uso “Invalid password” può includere il comportamento specificato nel caso d'uso di base “Login Account”.
 
+&nbsp
 ![Use Case Diagram - Extend_3](/images/UseCaseDiagram/Extend_3.svg)
+&nbsp
 
 La relazione "extend" mostra funzionalità opzionali, viene usata per includere il comportamento di un caso d’uso facoltativo (Ricerca) in quello base (Richiede un libro).
 
+&nbsp
 ![Use Case Diagram - Extend_1](/images/UseCaseDiagram/Extend_1.svg)
-
+&nbsp
 ![Use Case Diagram - Extend_2](/images/UseCaseDiagram/Extend_2.svg)
-
+&nbsp
 
 Include: l’azione viene sempre eseguita durante l’esecuzione del caso d’uso alla base della freccia.
 
@@ -200,16 +216,24 @@ Identificare le relazioni di inclusione:
 
 #### 1. Servizio passeggeri
 
+&nbsp
 ![Use Case Diagram - Servizio_passeggeri](/images/UseCaseDiagram/Servizio_passeggeri.svg)
+&nbsp
 
 #### 2. Servizio broadcasting
 
+&nbsp
 ![Use Case Diagram - Sistema_broadcasting](/images/UseCaseDiagram/Sistema_broadcasting.svg)
+&nbsp
 
 #### 3. Ristorante
 
+&nbsp
 ![Use Case Diagram - Ristorante](/images/UseCaseDiagram/Ristorante.svg)
+&nbsp
 
 #### 4. Vendita di veicoli
 
+&nbsp
 ![Use Case Diagram - Sistema_di_vendita_di_veicoli](/images/UseCaseDiagram/Sistema_di_vendita_di_veicoli.svg)
+&nbsp 

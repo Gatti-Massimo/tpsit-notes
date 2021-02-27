@@ -36,26 +36,31 @@ Sequence diagrams are made up of the following icons and elements:
 - **Object symbol:** it represents a class or object in UML. The object symbol demonstrates how an object will behave in the context of the system. Class attributes shouldn’t be listed in this shape.
 
 ![ObjectSymbol](/images/SequenceDiagram/ObjectSymbol.png) 
+&nbsp
 
 - **Activation box:** it represents the time needed for an object to complete a task. The longer the task will take, the longer the activation box becomes.
 
 ![ActivationBox](/images/SequenceDiagram/ActivationBox.png)
+&nbsp
 
 - **Actor symbol:** it shows entities that interact with or are external to the system.
 
 ![ActorSymbol](/images/SequenceDiagram/ActorSymbol.png)
+&nbsp
 
 - **Lifeline symbol:** it represents the passage of time as it extends downward. The dashed vertical line shows the sequential events that occur to an object during the charted process. Lifelines may begin with a labelled rectangle shape or an actor symbol.
 
 ![LifelineSymbol](/images/SequenceDiagram/LifelineSymbol.png)
+&nbsp
 
 - **Option loop symbol:** it is used to model if/then scenarios. For example, a circumstance that will only occur under certain conditions.
 
 ![OptionLoopSymbol](/images/SequenceDiagram/OptionLoopSymbol.png)
+&nbsp
 
 - **Alternative symbol:** it symbolizes a choice between two or more message sequences.
 
-![AlternativeSymbol](/images/SequenceDiagram/AlternativeSymbol.png)
+![AlternativeSymbol](/images/SequenceDiagram/AlternativeSymbol.png) 
 
 &nbsp
 ### Common message symbols
@@ -65,27 +70,32 @@ The following arrows and message symbols are used to show how information is tra
 - **Synchronous message symbol:** it is represented by a solid line with a solid arrowhead. This symbol is used when a sender must wait for a response to a message before it continues. The diagram should show both the call and the reply. 
 
 ![SynchronousSymbol](/images/SequenceDiagram/SynchronousSymbol.png) 
+&nbsp
 
 - **Asynchronous message symbol:** it is represented by a solid line with a lined arrowhead. Asynchronous messages don't require a response before the sender continues. Only the call should be included in the diagram.
 
 ![AsynchronousSymbol](/images/SequenceDiagram/AsynchronousSymbol.png) 
+&nbsp
 
 - **Asynchronous return message symbol:** it is represented by a dashed line with a lined arrowhead.
 
 ![AsynchronousReturnSymbol](/images/SequenceDiagram/AsynchronousReturnSymbol.png)  
+&nbsp
 
 - **Asynchronous create message symbol:** it is represented by a dashed line with a lined arrowhead. This message creates a new object.
 
 ![AsynchronousCreateSymbol](/images/SequenceDiagram/AsynchronousCreateSymbol.png) 
+&nbsp
 
 - **Reply message symbol:** it is represented by a dashed line with a lined arrowhead.
 
 ![AsynchronousReturnSymbol](/images/SequenceDiagram/AsynchronousReturnSymbol.png) 
+&nbsp
 
 - **Delete message symbol:** it is represented by a solid line with a solid arrowhead, followed by an X. This message destroys an object. 
 
 ![DeleteMessageSymbol](/images/SequenceDiagram/DeleteMessageSymbol.png) 
-
+&nbsp
 
 &nbsp
 ### Example in real life

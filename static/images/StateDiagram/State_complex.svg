@@ -2,7 +2,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <!-- Generato da Microsoft Visio, esportazione SVG State_complex.svg Pagina 1 -->
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
-		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="0.994669in" height="0.832743in"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="1.7in" height="1.4in"
 		viewBox="0 0 71.6161 59.9575" xml:space="preserve" color-interpolation-filters="sRGB" class="st5">
 	<v:documentProperties v:langID="1033" v:viewMarkup="false"/>
 
@@ -25,7 +25,7 @@
 			</v:userDefs>
 			<title>Stato con comportamento interno</title>
 			<g id="shape47-2" v:mID="47" v:groupContext="groupContent">
-				<rect x="0" y="0.75" width="70.8661" height="59.2075" rx="8.50394" ry="8.50394" class="st1"/>
+				<rect x="0" y="0.75" width="142" height="120" rx="8.50394" ry="8.50394" class="st1"/>
 			</g>
 			<g id="shape48-4" v:mID="48" v:groupContext="shape" transform="translate(0,-36.8038)">
 				<title>Foglio.48</title>
@@ -34,7 +34,7 @@
 					<v:ud v:nameU="UmlRole" v:prompt="" v:val="VT4(Title)"/>
 				</v:userDefs>
 				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
-				<v:textRect cx="35.4331" cy="48.7557" width="70.87" height="22.4037"/>
+				<v:textRect cx="35.4331" cy="48.7557" width="142" height="45"/>
 				<path d="M8.5 59.96 L62.36 59.96 A8.50394 8.50394 -180 0 0 70.87 51.45 L70.87 46.06 A8.50394 8.50394 -180 0 0 62.36
 							 37.55 L8.5 37.55 A8.50394 8.50394 -180 0 0 -0 46.06 L0 51.45 A8.50394 8.50394 -180 0 0 8.5 59.96 Z"
 						class="st1"/>
