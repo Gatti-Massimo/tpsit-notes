@@ -35,27 +35,27 @@ Sequence diagrams are made up of the following icons and elements:
 
 - **Object symbol:** it represents a class or object in UML. The object symbol demonstrates how an object will behave in the context of the system. Class attributes shouldn’t be listed in this shape.
 
-![ObjectSymbol](img/ObjectSymbol.jpg) 
+![ObjectSymbol](/images/SequenceDiagram/ObjectSymbol.png) 
 
 - **Activation box:** it represents the time needed for an object to complete a task. The longer the task will take, the longer the activation box becomes.
 
-![ActivationBox](img/ActivationBox.jpg)
+![ActivationBox](/images/SequenceDiagram/ActivationBox.png)
 
 - **Actor symbol:** it shows entities that interact with or are external to the system.
 
-![ActorSymbol](img/ActorSymbol.jpg)
+![ActorSymbol](/images/SequenceDiagram/ActorSymbol.png)
 
 - **Lifeline symbol:** it represents the passage of time as it extends downward. The dashed vertical line shows the sequential events that occur to an object during the charted process. Lifelines may begin with a labelled rectangle shape or an actor symbol.
 
-![LifelineSymbol](img/LifelineSymbol.jpg)
+![LifelineSymbol](/images/SequenceDiagram/LifelineSymbol.png)
 
 - **Option loop symbol:** it is used to model if/then scenarios. For example, a circumstance that will only occur under certain conditions.
 
-![OptionLoopSymbol](img/OptionLoopSymbol.jpg)
+![OptionLoopSymbol](/images/SequenceDiagram/OptionLoopSymbol.png)
 
 - **Alternative symbol:** it symbolizes a choice between two or more message sequences.
 
-![AlternativeSymbol](img/AlternativeSymbol.jpg)
+![AlternativeSymbol](/images/SequenceDiagram/AlternativeSymbol.png)
 
 &nbsp
 ### Common message symbols
@@ -64,27 +64,27 @@ The following arrows and message symbols are used to show how information is tra
 
 - **Synchronous message symbol:** it is represented by a solid line with a solid arrowhead. This symbol is used when a sender must wait for a response to a message before it continues. The diagram should show both the call and the reply. 
 
-![SynchronousSymbol](img/SynchronousSymbol.jpg) 
+![SynchronousSymbol](/images/SequenceDiagram/SynchronousSymbol.png) 
 
 - **Asynchronous message symbol:** it is represented by a solid line with a lined arrowhead. Asynchronous messages don't require a response before the sender continues. Only the call should be included in the diagram.
 
-![AsynchronousSymbol](img/AsynchronousSymbol.jpg) 
+![AsynchronousSymbol](/images/SequenceDiagram/AsynchronousSymbol.png) 
 
 - **Asynchronous return message symbol:** it is represented by a dashed line with a lined arrowhead.
 
-![AsynchronousReturnSymbol](img/AsynchronousReturnSymbol.jpg)  
+![AsynchronousReturnSymbol](/images/SequenceDiagram/AsynchronousReturnSymbol.png)  
 
 - **Asynchronous create message symbol:** it is represented by a dashed line with a lined arrowhead. This message creates a new object.
 
-![AsynchronousCreateSymbol](img/AsynchronousCreateSymbol.jpg) 
+![AsynchronousCreateSymbol](/images/SequenceDiagram/AsynchronousCreateSymbol.png) 
 
 - **Reply message symbol:** it is represented by a dashed line with a lined arrowhead.
 
-![AsynchronousReturnSymbol](img/AsynchronousReturnSymbol.jpg) 
+![AsynchronousReturnSymbol](/images/SequenceDiagram/AsynchronousReturnSymbol.png) 
 
 - **Delete message symbol:** it is represented by a solid line with a solid arrowhead, followed by an X. This message destroys an object. 
 
-![DeleteMessageSymbol](img/DeleteMessageSymbol.jpg) 
+![DeleteMessageSymbol](/images/SequenceDiagram/DeleteMessageSymbol.png) 
 
 
 &nbsp
@@ -94,4 +94,4 @@ Here is an example of sequence diagram use for ATM systems.
 
 An ATM allows people to access their bank accounts through a completely automated process. The example below outlines the sequential order of the interact ions in the ATM system.
 
-![RealLifeExample](img/Example.jpg) 
+![RealLifeExample](/images/SequenceDiagram/Example.png) 

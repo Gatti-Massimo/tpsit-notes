@@ -21,7 +21,7 @@ Use cases specify the intended behaviour, but not the exact method of achieving 
 
 The key concept of the diagram is to design a system from the point of view of the end user.
 
-![Use Case Diagram - Initial Scheme](Use%20Case%20Diagram%2028433171f0d741f2a250a55c0f069d27/Initial_scheme.svg)
+![Use Case Diagram - Initial Scheme](/images/UseCaseDiagram/Initial_scheme.svg)
 
 &nbsp
 ### Origins of the Use Case Diagram
@@ -42,15 +42,15 @@ The key concept of the diagram is to design a system from the point of view of t
 
 - Actor: is someone who interacts with the use case and is named by a noun.
 
-    ![Use Case Diagram - Actor](Use%20Case%20Diagram%2028433171f0d741f2a250a55c0f069d27/Actor.svg)
+    ![Use Case Diagram - Actor](/images/UseCaseDiagram/Actor.svg)
 
 - Use case: is a function of the system, it is represented by verb + noun.
 
-    ![Use Case Diagram - Use Case](Use%20Case%20Diagram%2028433171f0d741f2a250a55c0f069d27/Use_Case.svg)
+    ![Use Case Diagram - Use Case](/images/UseCaseDiagram/Use_Case.svg)
 
 - Association link: links an actor to a use case.
 
-    ![Use Case Diagram - Association](Use%20Case%20Diagram%2028433171f0d741f2a250a55c0f069d27/Association.svg)
+    ![Use Case Diagram - Association](/images/UseCaseDiagram/Association.svg)
 
 - System boundary: is potentially the whole system, it can be a system boundary for specific use cases.
 
@@ -61,13 +61,13 @@ It is a parent-child relationship between use cases. The child use case is an en
 
 It is represented by an arrow with a triangular tip. The child use case is connected to the base of the arrow and the parent use case is connected to the tip of the arrow.
 
-![Use Case Diagram - Generalization](Use%20Case%20Diagram%2028433171f0d741f2a250a55c0f069d27/Generalization_1.svg)
+![Use Case Diagram - Generalization](/images/UseCaseDiagram/Generalization_1.svg)
 
 The child use cases (Search by call number/author) inherit the behaviour and meaning of the parent use case (Search).
 
 The child use case can add to or override the behaviour of the father.
 
-![Use Case Diagram - Generalization](Use%20Case%20Diagram%2028433171f0d741f2a250a55c0f069d27/Generalization_2.svg)
+![Use Case Diagram - Generalization](/images/UseCaseDiagram/Generalization_2.svg)
 
 &nbsp
 ### "include" relationship
@@ -76,13 +76,13 @@ When a use case is described as a user of another use case, their relationship i
 
 A use case relationship is represented by a dotted line and an arrow. The tip indicates the child process, while the base is the parent.
 
-![Use Case Diagram - Include_3](Use%20Case%20Diagram%2028433171f0d741f2a250a55c0f069d27/Include_3.svg)
+![Use Case Diagram - Include_3](/images/UseCaseDiagram/Include_3.svg)
 
 The "include" relationship adds functionality not specified in the use case. The included case is part of the behaviour of the one that includes it.
 
-![Use Case Diagram - Include_1](Use%20Case%20Diagram%2028433171f0d741f2a250a55c0f069d27/Include_1.svg)
+![Use Case Diagram - Include_1](/images/UseCaseDiagram/Include_1.svg)
 
-![Use Case Diagram - Include_2](Use%20Case%20Diagram%2028433171f0d741f2a250a55c0f069d27/Include_2.svg)
+![Use Case Diagram - Include_2](/images/UseCaseDiagram/Include_2.svg)
 
 &nbsp
 ### "extend" relationship
@@ -93,13 +93,13 @@ It is represented by a dotted arrow. At the tip of the arrow is the base case an
 
 In this case the use case "Invalid password" can include the behaviour specified in the base use case "Login Account".
 
-![Use Case Diagram - Extend_3](Use%20Case%20Diagram%2028433171f0d741f2a250a55c0f069d27/Extend_3.svg)
+![Use Case Diagram - Extend_3](/images/UseCaseDiagram/Extend_3.svg)
 
 The relationship "extend" shows optional functionality, it is used to include the behaviour of an optional use case (Search) in the base use case (Request a book).
 
-![Use Case Diagram - Extend_1](Use%20Case%20Diagram%2028433171f0d741f2a250a55c0f069d27/Extend_1.svg)
+![Use Case Diagram - Extend_1](/images/UseCaseDiagram/Extend_1.svg)
 
-![Use Case Diagram - Extend_2](Use%20Case%20Diagram%2028433171f0d741f2a250a55c0f069d27/Extend_2.svg)
+![Use Case Diagram - Extend_2](/images/UseCaseDiagram/Extend_2.svg)
 
 &nbsp
 ### Difference between "include" and "extend"
@@ -203,16 +203,16 @@ Identify inclusion relations:
 
 #### 1. Passenger service
 
-![Use Case Diagram - Passenger_Service](Use%20Case%20Diagram%2028433171f0d741f2a250a55c0f069d27/Passenger_Service.svg)
+![Use Case Diagram - Passenger_Service](/images/UseCaseDiagram/Passenger_Service.svg)
 
 #### 2. Broadcasting service
 
-![Use Case Diagram - Broadcasting_System](Use%20Case%20Diagram%2028433171f0d741f2a250a55c0f069d27/Broadcasting_System.svg)
+![Use Case Diagram - Broadcasting_System](/images/UseCaseDiagram/Broadcasting_System.svg)
 
 #### 3. Restaurant
 
-![Use Case Diagram - Restaurant](Use%20Case%20Diagram%2028433171f0d741f2a250a55c0f069d27/Restaurant.svg)
+![Use Case Diagram - Restaurant](/images/UseCaseDiagram/Restaurant.svg) 
 
 #### 4. Sale of vehicles
 
-![Use Case Diagram - Vehicle_Sales_System](Use%20Case%20Diagram%2028433171f0d741f2a250a55c0f069d27/Vehicle_Sales_System.svg)
+![Use Case Diagram - Vehicle_Sales_System](/images/UseCaseDiagram/Vehicle_Sales_System.svg)

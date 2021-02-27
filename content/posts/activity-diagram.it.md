@@ -53,8 +53,9 @@ I tipi di forma più importanti:
 
 &nbsp
 ### Struttura di un Activity diagram
+&nbsp
 
-![Activity Diagram Structure](Activity%20Diagram%20-%20ENG%206aa4b6c2df1043ab800dde8c0093faff/1.png)
+![Activity Diagram Structure](/images/ActivityDiagram/1.png)
 
 &nbsp
 ### Esercizio di esempio:
@@ -75,8 +76,9 @@ L'esempio di Activity Diagram riportato di seguito descrive il flusso di lavoro 
 
 &nbsp
 ### Grafico d'Esempio:
+&nbsp
 
-![Activity Diagram Graph](Activity%20Diagram%20-%20ENG%206aa4b6c2df1043ab800dde8c0093faff/2.png)
+![Activity Diagram Graph](/images/ActivityDiagram/2.png) 
 
 
 

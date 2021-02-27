@@ -57,10 +57,11 @@ connected with arrows. The most important shape types:
 - An encircled black circle represents the end (final node).
 - Arrows run from the start towards the end and represent the order in which activities happen.
 
-&nbsp
+&nbsp 
 ### Structure of an Activity Diagram
+&nbsp
 
-![Activity Diagram Structure](Activity%20Diagram%20-%20ENG%206aa4b6c2df1043ab800dde8c0093faff/1.png)
+![Activity Diagram Structure](/images/ActivityDiagram/1.png) 
 
 &nbsp
 ### Activity Diagram - Modeling a Word Processor (Example)
@@ -80,8 +81,9 @@ create a document through the following steps:
 
 &nbsp
 ### Example graph:
+&nbsp
 
-![Activity Diagram Graph](Activity%20Diagram%20-%20ENG%206aa4b6c2df1043ab800dde8c0093faff/2.png)
+![Activity Diagram Graph](/images/ActivityDiagram/2.png)
 
 
 
