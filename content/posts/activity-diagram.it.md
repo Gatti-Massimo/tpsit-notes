@@ -11,6 +11,7 @@ tags: ["Requisiti Software"]
 categories: ["Requisiti Software"]   
 ---  
 
+
 ---
 ### Cos'è un Activity diagram?
 

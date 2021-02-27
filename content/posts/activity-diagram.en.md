@@ -11,8 +11,8 @@ tags: ["Software Requirements"]
 categories: ["Software Requirements"]         
 ---  
 
----
 
+---
 ### What is an Activity Diagram?
 
 An activity diagram is an important behavioral diagram in UML used to describe the dynamic aspects of a system. 
