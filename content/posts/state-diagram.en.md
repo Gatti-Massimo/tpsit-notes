@@ -23,7 +23,8 @@ A **state diagram** consists of *states*, *transitions*, *events*, and *activiti
 
 A **state** is a condition during the life of an object during which it *satisfies some condition*, *performs some activity*, or *waits for some external event*.
 
-![State_simple](State%20Diagram/State_simple.svg)
+![State_simple](State%20Diagram/State_simple.svg) 
+ 
 State is represented by a rectangle
 
 ![State_complex](State%20Diagram/State_complex.svg)
