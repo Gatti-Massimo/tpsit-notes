@@ -13,8 +13,6 @@ categories: ["Requisiti Software"]
 
 
 --- 
-
-&nbsp
 ### Breve introduzione all'argomento
 
 Per capire meglio cos'è un Diagramma di Sequenza, è importante conoscere come funziona un UML. Il linguaggio UML, Unified Modeling Language, viene utilizzato per fornire un modo standard per visualizzare, documentare, specificare e costruire sistemi software.
