@@ -2,7 +2,7 @@
 title: "Diagramma di Attività"
 date: 2021-02-15T21:43:46+01:00 # aggiorna data !
 
-draft: true # cambia con false quando viene approvata la versone definitiva !
+draft: false # cambia con false quando viene approvata la versone definitiva !
 
 languageName: "Italiano"
 author: ["Massimo", "Riccardo", "Gabriele", "Francesco"] 

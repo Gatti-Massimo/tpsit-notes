@@ -2,7 +2,7 @@
 title: "Diagramma degli Stati"
 date: 2021-02-25T15:57:21+01:00 # aggiorna data !
 
-draft: true # cambia con false quando viene approvata la versone definitiva !
+draft: false # cambia con false quando viene approvata la versone definitiva !
 
 languageName: "Italiano"
 author: ["Giacomo", "Nicolò", "Lorenzo", "Stefano"] 
