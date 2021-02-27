@@ -2,7 +2,7 @@
 title: "State Diagram"
 date: 2021-02-25T15:44:30+01:00 # update date !
 
-draft: true # toggle to false when final version is approved !
+draft: false # toggle to false when final version is approved !
 
 languageName: "English"
 author: ["Giacomo", "Nicolò", "Lorenzo", "Stefano"] 

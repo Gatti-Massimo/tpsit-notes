@@ -2,7 +2,7 @@
 title: "Sequence Diagram"
 date: 2021-02-15T21:43:46+01:00 # update date !
 
-draft: true # toggle to false when final version is approved !
+draft: false # toggle to false when final version is approved !
 
 languageName: "English"
 author: ["Daniel", "Emanuele", "Francesco", "Mattia"]
