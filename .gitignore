@@ -1,6 +1,8 @@
 # hugo
 
 /public/
+public/*
+public/
 /resources/_gen/
 
 hugo.exe
