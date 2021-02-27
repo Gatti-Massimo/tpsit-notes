@@ -13,11 +13,11 @@ categories: ["Requisiti Software"]
 
 
 --- 
-### Breve introduzione all'argomento
+Un diagramma di sequenza è un tipo di **Diagramma di interazione**, perché descrive come un gruppo di oggetti lavora insieme. I diagrammi di interazione vengono utilizzati per rappresentare il modo in cui gli oggetti nel sistema si connettono e comunicano tra loro.
 
-Per capire meglio cos'è un Diagramma di Sequenza, è importante conoscere come funziona un UML. Il linguaggio UML, Unified Modeling Language, viene utilizzato per fornire un modo standard per visualizzare, documentare, specificare e costruire sistemi software.
+Questi diagrammi ci forniscono il contesto di un'interazione tra una o più **linee di vita** nel sistema. Ciò consente la visualizzazione di semplici scenari di runtime in modo grafico. 
 
-Un Diagramma di Sequenza è un tipo di **Diagramma di interazione**, perché descrive come un gruppo di oggetti lavora insieme. I diagrammi di interazione vengono utilizzati per rappresentare il modo in cui gli oggetti nel sistema si connettono e comunicano tra loro. Questi diagrammi ci forniscono il contesto di un'interazione tra una o più **linee di vita** nel sistema. Ciò consente la visualizzazione di semplici scenari di runtime in modo grafico. I diagrammi di Sequenza sono anche chiamati _diagrammi di eventi_ o _scenari di eventi_. Di solito, questi diagrammi vengono utilizzati da professionisti aziendali e sviluppatori di software per documentare i processi o per comprendere i requisiti di un nuovo sistema.
+I diagrammi di Sequenza sono anche chiamati _diagrammi di eventi_ o _scenari di eventi_. Di solito, questi diagrammi vengono utilizzati da professionisti aziendali e sviluppatori di software per documentare i processi o per comprendere i requisiti di un nuovo sistema.
 
 &nbsp
 ### Quando utilizzare il Diagramma di Sequenza

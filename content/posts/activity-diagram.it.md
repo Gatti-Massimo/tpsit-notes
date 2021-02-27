@@ -13,9 +13,7 @@ categories: ["Requisiti Software"]
 
 
 ---
-### Cos'è un Activity diagram?
-
-L'Activity Diagram è un una tipologia di diagramma UML utilizzato per descrivere gli aspetti dinamici del sistema. Un Activity Diagram è essenzialmente una versione avanzata del Flowchart che modella il flusso da un'attività a un'altra attività.
+L'activity diagram è un una tipologia di diagramma UML utilizzato per descrivere gli aspetti dinamici del sistema. Un Activity Diagram è essenzialmente una versione avanzata del Flowchart che modella il flusso da un'attività a un'altra attività.
 
 &nbsp
 ### Quando utilizzare gli Activity diagram?

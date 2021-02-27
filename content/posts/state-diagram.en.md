@@ -32,7 +32,7 @@ A state with internal activities
 &nbsp
 ### Initial and Final States
 
-- The **initial state** of a state machine diagram, known as an *initial pseudo-state*. A *transition*from this state will show the **first real state.**
+- The **initial state** of a state machine diagram, known as an *initial pseudo-state*. A *transition* from this state will show the **first real state.**
 
 ![InitialState](State%20Diagram/InitialState.svg)
 A filled circle followed by an arrow represents the object's initial state
@@ -45,17 +45,17 @@ An arrow pointing to a filled circle nested inside another circle represents the
 &nbsp
 ### Event
 
-An **event** is the *specification*of a *significant occurrence*. For a state machine, an event is the occurrence of a stimulus that can trigger a state transition.
+An **event** is the *specification* of a *significant occurrence*. For a state machine, an event is the occurrence of a stimulus that can trigger a state transition.
 
 &nbsp
 ### Action
 
-An **action** is an *executable computation*. Actions may include *operations*, the *creation*or *destruction* of other objects, or the *sending*of signals to other objects.
+An **action** is an *executable computation*. Actions may include *operations*, the *creation* or *destruction* of other objects, or the *sending* of signals to other objects.
 
 &nbsp
 ### Transition
 
-A **transition** is a *relationship* between *two states* indicating that an object in the *first state* will, when a specified set of events and conditions are *satisfied*, perform certain *action/s*and enter the *second state*.
+A **transition** is a *relationship* between *two states* indicating that an object in the *first state* will, when a specified set of events and conditions are *satisfied*, perform certain *action/s* and enter the *second state*.
 
 A transition has:
 
@@ -78,7 +78,7 @@ A **self-transition** is a transition whose *source* and *target states* are *th
 &nbsp
 ### Constraints
 
-It is possible to add **constraints**to transitions, the semantics is that a transition is *enabled*when the constraint is *true*
+It is possible to add **constraints**to transitions, the semantics is that a transition is *enabled* when the constraint is *true*
 
 ![Contraint](State%20Diagram/Contraint.svg)
 Constraint ”[not last copy]” and ”[last copy]” are used to distinguish the two transitions with the event ”copyBorrowed()”
@@ -86,7 +86,7 @@ Constraint ”[not last copy]” and ”[last copy]” are used to distinguish t
 &nbsp
 ### Substates
 
-A **sub-state** is one which has *no substructure*. A state which has *sub-states*(nested states) is called a **composite state**. Sub-states may be nested to any level. A nested state machine may have at most one initial state and one final state. Sub-states are used to simplify complex flat state machines by showing that some states are only possible within a particular context.
+A **sub-state** is one which has *no substructure*. A state which has *sub-states* (nested states) is called a **composite state**. Sub-states may be nested to any level. A nested state machine may have at most one initial state and one final state. Sub-states are used to simplify complex flat state machines by showing that some states are only possible within a particular context.
 
 ![Substates](State%20Diagram/Substates.svg)
 The Cooling composite state has 3 nested state (sub-state) that run in sequence
@@ -102,7 +102,7 @@ The Shallow History State is represented by an H in a circle
 &nbsp
 ### Concurrent State
 
-**Concurrent Sub-states** are *independent*and can complete at different times and each sub-state is separated from the others by a dashed line.
+**Concurrent Sub-states** are *independent* and can complete at different times and each sub-state is separated from the others by a dashed line.
 
 ![ConcurrentState](State%20Diagram/ConcurrentState.svg)
 Into the On state 4 nested state run into 2 different parallelism. The 2 sub-states are divided by a dashed line

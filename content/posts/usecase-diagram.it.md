@@ -13,9 +13,7 @@ categories: ["Requisiti Software"]
 
 
 ---
-### Cos’è il Diagramma dei Casi d'Uso
-
-Il Diagramma dei Casi d'Uso è una rappresentazione dell'interazione di un utente con il sistema del software, che mostra la relazione tra l'utente e i diversi casi d'uso in cui esso è coinvolto.
+Il diagramma dei casi d'uso è una rappresentazione dell'interazione di un utente con il sistema del software, che mostra la relazione tra l'utente e i diversi casi d'uso in cui esso è coinvolto.
 
 Un diagramma dei casi d’uso può identificare i diversi tipi di utenti di un sistema e viene spesso accompagnato anche da altri tipi di diagrammi.
 

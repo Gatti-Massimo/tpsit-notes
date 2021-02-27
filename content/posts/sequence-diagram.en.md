@@ -13,11 +13,11 @@ categories: ["Software Requirements"]
 
 
 ---
-### Brief introduction to the topic
+A sequence diagram is an **interaction diagram** type, because it describes how a group of objects works together. Interaction diagrams are used to represent how the objects in the system connect and communicate with each other. 
 
-To understand better what a sequence diagram is, it's important to know the role of an UML. The UML, Unified Modelling language, is used to provide a standard way to visualize, document, specify and construct software systems.
+These diagrams provide us the context of an interaction between one or more **lifelines** in the system. This allows the specification of simple runtime scenarios in a graphical manner. 
 
-A sequence diagram is an **interaction diagram** type, because it describes how a group of objects works together. Interaction diagrams are used to represent how the objects in the system connect and communicate with each other. These diagrams provide us the context of an interaction between one or more **lifelines** in the system. This allows the specification of simple runtime scenarios in a graphical manner. Sequence diagrams are also called _event diagrams_ or _event scenarios_. Usually, these diagrams are used by business professionals and software developers to document processes or to understand requirements for a new system.
+Sequence diagrams are also called _event diagrams_ or _event scenarios_. Usually, these diagrams are used by business professionals and software developers to document processes or to understand requirements for a new system.
 
 &nbsp
 ### When to use Sequence Diagram

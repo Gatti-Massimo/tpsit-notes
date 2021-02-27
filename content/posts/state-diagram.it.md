@@ -11,8 +11,9 @@ tags: ["Requisiti Software"]
 categories: ["Requisiti Software"]   
 ---  
 
+
 ---
-Un **diagramma di stato** è costituito da *stati*, *transizioni*, *eventi*e *attività*. Si utilizzano diagrammi di stato per illustrare la **visualizzazione dinamica** di un sistema. Sono particolarmente importanti nella modellazione del comportamento di un'*interfaccia*, una *classe* o una *collaborazione*. I diagrammi di stato enfatizzano il **comportamento ordinato** per evento di un oggetto, che è particolarmente utile nella modellazione di sistemi reattivi.
+Un **diagramma di stato** è costituito da *stati*, *transizioni*, *eventi* e *attività*. Si utilizzano diagrammi di stato per illustrare la **visualizzazione dinamica** di un sistema. Sono particolarmente importanti nella modellazione del comportamento di un'*interfaccia*, una *classe* o una *collaborazione*. I diagrammi di stato enfatizzano il **comportamento ordinato** per evento di un oggetto, che è particolarmente utile nella modellazione di sistemi reattivi.
 
 &nbsp
 ### Simboli e notazioni base del diagramma di stato 

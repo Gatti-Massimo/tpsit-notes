@@ -13,9 +13,7 @@ categories: ["Software Requirements"]
 
 
 --- 
-### What is the Use Case Diagram
-
-The Use Case Diagram is a representation of a user's interaction with the software system, showing the relationship between the user and the different use cases in which the user is involved.
+The use case diagram is a representation of a user's interaction with the software system, showing the relationship between the user and the different use cases in which the user is involved.
 
 A use case diagram can identify the different types of users of a system and is often accompanied by other types of diagrams.
 
