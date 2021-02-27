@@ -3,10 +3,11 @@ paginate: 5
 languageCode: en-us
 theme: "hugo-PaperMod" 
 
+baseurl: https://tpsit-notes.netlify.app/
+
 module:
   imports:
     - path: github.com/adityatelange/hugo-PaperMod
-
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
