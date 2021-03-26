@@ -69,6 +69,39 @@ The most important shape types are:
 ![(img) Activity Diagram Structure](/images/ActivityDiagram/1.png) 
 
 &nbsp
+### Example graph:
+&nbsp
+
+![(img) Activity Diagram Graph](/images/ActivityDiagram/2.png)
+
+&nbsp
+### What are Swimlanes? 
+
+A swimlane is a way to group activities performed by the same actor on an activity diagram or activity diagram or to group activities in a single thread, swimlanes have to be ordered in a Logical Manner. 
+
+Here is an example of a swimlane activity diagram for modeling Staff Expenses Submission:
+![(img) Swimlane Graph](/images/ActivityDiagram/Swimlane.png) 
+
+&nbsp
+### Activity Diagrams Cheatsheet 
+
+![(img) Cheatsheet Table 1](/images/ActivityDiagram/Cheatsheet1.png) 
+&nbsp
+![(img) Cheatsheet Table 2](/images/ActivityDiagram/Cheatsheet2.png)
+
+&nbsp
+### Order Processing Example 
+
+A customer wants to order his furniture online, so the company he bought from has then to fulfill it and get paid 
+- The company receives the order 
+- The company sends back an invoice and starts the delivery process
+- While the payment is processed the type of order must be received and implemented (rushed or standard delivery) 
+- Once everything is ready the order is shipped 
+- The company warns that the shipment is on its way 
+
+![(img) Order Processing Example](/images/ActivityDiagram/OrderProcessing.png) 
+
+&nbsp
 ### Example: Modelling a Word Processor 
 
 The activity diagram example below describes the workflow of using a word processor while
@@ -85,32 +118,6 @@ creating a document.
 - Exit the word processing package 
 
 &nbsp
-### Example graph:
-&nbsp
-
-![(img) Activity Diagram Graph](/images/ActivityDiagram/2.png)
-
-&nbsp
-### What are Swimlanes? 
-
-A swimlane is a way to group activities performed by the same actor on an activity diagram or activity diagram or to group activities in a single thread, swimlanes have to be ordered in a Logical Manner. 
-
-Here is an example of a swimlane activity diagram for modeling Staff Expenses Submission:
-![(img) Swimlane Graph](/images/ActivityDiagram/Swimlane.png) 
-
-&nbsp
-### Order Processing Example 
-
-A customer wants to order his furniture online, so the company he bought from has then to fulfill it and get paid 
-- The company receives the order 
-- The company sends back an invoice and starts the delivery process
-- While the payment is processed the type of order must be received and implemented (rushed or standard delivery) 
-- Once everything is ready the order is shipped 
-- The company warns that the shipment is on its way 
-
-![(img) Order Processing Example](/images/ActivityDiagram/OrderProcessing.png) 
-
-&nbsp
 ### Student Enrollment Example 
 
 This UML activity diagram example describes a process for student enrollment in a university as follows. 
@@ -123,13 +130,4 @@ This UML activity diagram example describes a process for student enrollment in 
 - The registrar helps the student to enroll in seminars
 - The registrar asks the student to pay for the initial tuition 
 
-![(img) Student Enrollment Example](/images/ActivityDiagram/StudentEnrollment.png) 
-
-&nbsp
-### Activity Diagrams Cheatsheet 
-
-![(img) Cheatsheet Table 1](/images/ActivityDiagram/Cheatsheet1.png) 
-![(img) Cheatsheet Table 2](/images/ActivityDiagram/Cheatsheet2.png) 
-
-
-
+![(img) Student Enrollment Example](/images/ActivityDiagram/StudentEnrollment.png)  
