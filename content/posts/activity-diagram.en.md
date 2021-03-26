@@ -14,12 +14,15 @@ categories: ["Software Requirements"]
 
 ---
 
+&nbsp
+
 ### What's an Activity Diagram?
 
 An activity diagram is an important behavioural diagram in UML used to describe the dynamic aspects of a system. 
 Activity diagrams are essentially an advanced version of a flowchart that models the flow from one activity to another. 
 
 &nbsp
+
 ### When do we use Activity Diagrams?
 
 Activity Diagrams describe how activities are coordinated to provide a
@@ -39,6 +42,7 @@ Activity Diagrams are useful to:
 - Model in detail complex activities in a high level activity Diagram
 
 &nbsp
+
 ### Differences between Activity diagrams and a Flowcharts
 
 Flowcharts were typically invented earlier than activity diagrams. Non
@@ -49,6 +53,7 @@ activity diagram. Business processes where decision making is involved is
 expressed using a flow chart.
 
 &nbsp
+
 ### Construction
 
 Activity diagrams are constructed from a limited number of shapes,
@@ -62,35 +67,23 @@ The most important shape types are:
 - Encircled black circles, representing the end (final node) 
 - Arrows, running from the start towards the end, representing the order in which activities happen 
 
+&nbsp
+
+### Activity Diagrams Cheatsheet 
+
+![(img) Cheatsheet Table 1](/images/ActivityDiagram/Cheatsheet1.png) 
 &nbsp 
+![(img) Cheatsheet Table 2](/images/ActivityDiagram/Cheatsheet2.png) 
+
+&nbsp 
+
 ### Structure of an Activity Diagram
 &nbsp
 
 ![(img) Activity Diagram Structure](/images/ActivityDiagram/1.png) 
 
 &nbsp
-### Example: Modelling a Word Processor 
 
-The activity diagram example below describes the workflow of using a word processor while
-creating a document. 
-
-- Open the word processing package 
-- Create a file 
-- Save the file under a unique name within its directory 
-- Type the document 
-- If graphics are necessary, open the graphics package, create the graphics, and paste the graphics into the document 
-- If a spreadsheet is necessary, open the spreadsheet package, create the spreadsheet and paste it into the document 
-- Save the file 
-- Print a hard copy of the document 
-- Exit the word processing package 
-
-&nbsp
-### Example graph:
-&nbsp
-
-![(img) Activity Diagram Graph](/images/ActivityDiagram/2.png)
-
-&nbsp
 ### What are Swimlanes? 
 
 A swimlane is a way to group activities performed by the same actor on an activity diagram or activity diagram or to group activities in a single thread, swimlanes have to be ordered in a Logical Manner. 
@@ -99,6 +92,7 @@ Here is an example of a swimlane activity diagram for modeling Staff Expenses Su
 ![(img) Swimlane Graph](/images/ActivityDiagram/Swimlane.png) 
 
 &nbsp
+
 ### Order Processing Example 
 
 A customer wants to order his furniture online, so the company he bought from has then to fulfill it and get paid 
@@ -111,6 +105,7 @@ A customer wants to order his furniture online, so the company he bought from ha
 ![(img) Order Processing Example](/images/ActivityDiagram/OrderProcessing.png) 
 
 &nbsp
+
 ### Student Enrollment Example 
 
 This UML activity diagram example describes a process for student enrollment in a university as follows. 
@@ -126,10 +121,22 @@ This UML activity diagram example describes a process for student enrollment in 
 ![(img) Student Enrollment Example](/images/ActivityDiagram/StudentEnrollment.png) 
 
 &nbsp
-### Activity Diagrams Cheatsheet 
 
-![(img) Cheatsheet Table 1](/images/ActivityDiagram/Cheatsheet1.png) 
-![(img) Cheatsheet Table 2](/images/ActivityDiagram/Cheatsheet2.png) 
+### Example: Modelling a Word Processor 
 
+The activity diagram example below describes the workflow of using a word processor while
+creating a document. 
 
+- Open the word processing package 
+- Create a file 
+- Save the file under a unique name within its directory 
+- Type the document 
+- If graphics are necessary, open the graphics package, create the graphics, and paste the graphics into the document 
+- If a spreadsheet is necessary, open the spreadsheet package, create the spreadsheet and paste it into the document 
+- Save the file 
+- Print a hard copy of the document 
+- Exit the word processing package 
 
+![(img) Activity Diagram Graph](/images/ActivityDiagram/2.png)
+
+&nbsp
